@@ -1,0 +1,102 @@
+/*---------------------settings-------------------*/
+
+/*font-family: 'Expletus Sans', cursive;*/
+/*font-family: 'Rubik', sans-serif;*/
+
+
+
+/*---------------------Generic-------------------*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+/*liste a puce sur tout les li*/
+li{
+    list-style: none;
+}
+
+/*enlever les marge de h1 et h2*/
+h1,h2{
+
+    margin: 0;
+}
+
+
+
+
+/*---------------------Éléments-------------------*/
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+
+    color: #2D2D2D;
+
+
+
+}
+
+/*styler les a*/
+a{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-decoration-line: none;
+
+    color: #2D2D2D;
+}
+
+/*styler les hover des a*/
+a:hover{
+
+    text-decoration-line: underline;
+
+    color: #FFFCFC;
+}
+
+/*styler les h1*/
+
+h1{
+
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 125px;
+
+    color: #2D2D2D;
+}
+
+/*styler les h2*/
+
+h2{
+
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+
+    color: #FFFFFF;
+}
+
+
+
+
+/*---------------------Composantes-------------------*/
+
+.conteneur{
+    margin:0 auto;
+    max-width: 1140px;
+}
+
+
+
+/*---------------------Utilities-------------------*/
