@@ -16,7 +16,7 @@ li{
 }
 
 /*enlever les marge de h1 et h2*/
-h1,h2{
+h1,h2,h3{
 
     margin: 0;
 }
@@ -71,6 +71,7 @@ h1{
     font-size: 96px;
     line-height: 125px;
 
+
     color: #2D2D2D;
 }
 
@@ -87,15 +88,169 @@ h2{
     color: #FFFFFF;
 }
 
+h3{
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+
 
 
 
 /*---------------------Composantes-------------------*/
 
+
+/*conteneur*/
 .conteneur{
     margin:0 auto;
     max-width: 1140px;
 }
+
+
+
+/*header*/
+
+.header-principal{
+
+
+    background: #FF9800;
+
+}
+
+.nav-principale ul{
+    height: 60px;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-principale ul li{
+    margin-left: 20px;
+}
+
+/*héros*/
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 300px;
+
+    background: #FFC107;
+
+
+}
+
+.hero h1{
+    padding:88px 0;
+
+}
+
+/*information*/
+
+.information{
+    padding: 30px;
+}
+
+.information .conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*carte*/
+
+.carte{
+    display: flex;
+    flex-direction: column;
+
+    width: 31%;
+    background: #f0f0f0;
+}
+
+.carte header{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.carte:nth-child(1) header{
+    background: #E34E26;
+}
+
+.carte:nth-child(2) header{
+    background: #0270BB;
+}
+
+.carte:nth-child(3) header{
+    background: #F8DC3D;
+}
+
+.conteneur .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+
+    padding: 20px;
+
+}
+
+/*carte footer*/
+
+.carte-footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bouton{
+
+    padding: 10px;
+
+    background: #FFC107;
+    border: 1px solid #E64A19;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.bouton:hover{
+    background: #E64A19;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+
+.carte-footer span {
+
+    align-self: center;
+
+    color: #E64A19;
+}
+
+
+/*footer principal*/
+
+
+.footer-principal{
+    background: #E64A19;
+
+    padding: 30px;
+
+
+}
+
+
 
 
 
